@@ -1,5 +1,5 @@
 import scratchattach as scratch3,time,random,requests
-session = scratch3.login("kannbo", ) # 自分のパスワード
+session = scratch3.login("kannbo", str(os.environ.get('PASSWORD'))) # 自分のパスワード
 conn = session.connect_cloud("961033085") # project_id
 print(1)
 # https://scratch.mit.edu/projects/767766792/
