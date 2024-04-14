@@ -1,4 +1,4 @@
-import scratchattach as scratch3,time,random,requests
+import scratchattach as scratch3,time,random,requests,os
 session = scratch3.login("kannbo", str(os.environ.get('PASSWORD'))) # 自分のパスワード
 conn = session.connect_cloud("961033085") # project_id
 print(1)
